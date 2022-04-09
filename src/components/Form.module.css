@@ -1,0 +1,58 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 30rem;
+  align-items: center;
+  border: 3px solid navy;
+  box-shadow: 10px 10px 10px 0px;
+  border-radius: 5px;
+  gap: 1rem;
+  margin-top: 8.2rem;
+  padding-bottom: 1.5rem;
+  color: navy;
+  font-family: "Press Start 2P", cursive;
+  font-size: 18px;
+}
+
+.form input[type="submit"] {
+  width: 150px;
+  color: #fff;
+  background: navy;
+  cursor: pointer;
+}
+
+.form input {
+  border: 2px solid navy;
+  color: navy;
+  border-radius: 5px;
+  padding: 10px;
+  width: 350px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 12px;
+}
+
+.form textarea {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px;
+  width: 350px;
+  height: 150px;
+  min-width: 350px;
+  min-height: 150px;
+  max-width: 400px;
+  max-height: 250px;
+  border: 2px solid navy;
+  color: navy;
+  font-family: "Press Start 2P", cursive;
+  font-size: 12px;
+}
+
+.erreur {
+  background-size: auto;
+  background-image: url(../resources/bg_image.jpg);
+  color: darkred;
+  padding: .5rem;
+  border: 2px solid darkred;
+  font-size: 10px;
+}

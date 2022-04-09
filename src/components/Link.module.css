@@ -1,0 +1,10 @@
+.link {
+  font-family: "Press Start 2P", cursive;
+  background: navy;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  float: right;
+  color: #fff;
+}

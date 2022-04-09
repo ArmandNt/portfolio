@@ -1,0 +1,32 @@
+.window {
+  float: right;
+  color: navy;
+  background: rgba(24, 23, 23, 0.07);
+  padding: 15px;
+  border-radius: 5px;
+  margin-right: 27px;
+  margin-left: 5rem;
+  margin-top: 1.5rem;
+  box-shadow: 10px 10px 10px 0px;
+}
+
+.titre {
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-right: 24rem;
+  font-family: "Press Start 2P", cursive;
+}
+
+.descr {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 18rem;
+  color: #fff;
+  font-size: 15px;
+}
+
+.window:hover {
+  background: rgba(23, 23, 23, 0.75);
+}

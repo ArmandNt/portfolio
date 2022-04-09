@@ -1,0 +1,13 @@
+.footer {
+  background-size: cover;
+  background-image: transparent;
+  position: relative;
+  bottom: 0;
+  color: navy;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 20px;
+  margin-top: 50px;
+}
