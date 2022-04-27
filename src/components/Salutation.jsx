@@ -18,6 +18,7 @@ export default function Salutation(props) {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
           similique nostrum rerum velit voluptatibus deserunt cum? Dicta quia
           odio nostrum perferendis sit illo hic, quibusdam officia ducimus quod
+          nesciunt dolor.Lorem ipsum dolor sit. quibusdam officia ducimus quod
           nesciunt dolor.Lorem ipsum dolor sit.
         </Intro>
       </div>

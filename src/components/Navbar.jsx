@@ -22,10 +22,10 @@ export default function Menu(props) {
             <Link to="/">accueil</Link>
           </li>
           <li>
-            <Link to="Projet1">projet 1</Link>
+            <Link to="Projet1">projet Web</Link>
           </li>
           <li>
-            <Link to="Projet2">projet 2</Link>
+            <Link to="Projet2">projet Bureau</Link>
           </li>
           <li>
             <Link to="Contact">Contact</Link>

@@ -8,11 +8,15 @@
   box-shadow: 10px 10px 10px 0px;
   border-radius: 5px;
   gap: 1rem;
-  margin-top: 8.2rem;
-  padding-bottom: 1.5rem;
+  margin-top: 11rem;
+  padding-bottom: 1rem;
   color: navy;
   font-family: "Press Start 2P", cursive;
   font-size: 18px;
+}
+
+.form h2 {
+  padding: 1rem;
 }
 
 .form input[type="submit"] {
@@ -52,7 +56,7 @@
   background-size: auto;
   background-image: url(../resources/bg_image.jpg);
   color: darkred;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 2px solid darkred;
   font-size: 10px;
 }

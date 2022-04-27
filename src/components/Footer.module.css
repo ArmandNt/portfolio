@@ -2,6 +2,8 @@
   background-size: cover;
   background-image: transparent;
   position: relative;
+  width: 100%;
+  box-sizing: border-box;
   bottom: 0;
   color: navy;
   text-align: center;
@@ -10,4 +12,9 @@
   font-size: 18px;
   padding: 20px;
   margin-top: 50px;
+  text-transform: capitalize;
+}
+
+.footer:hover {
+  background: rgba(23, 23, 23, 0.75);
 }

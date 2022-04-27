@@ -7,10 +7,10 @@ export default function Layout() {
   return (
     <>
       <Navbar />
-      <Suspense fallback={<></>}>
+      <Suspense fallback={<>...</>}>
         <Outlet />
       </Suspense>
-      <Footer nom="Armand Ntawebangana"></Footer>
+      <Footer nom="armand ntawebangana"></Footer>
     </>
   );
 }
