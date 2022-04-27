@@ -7,8 +7,8 @@ import Layout from "./pages/Layout";
 import "./App.css";
 
 const Accueil = lazy(() => import("./pages/Accueil"));
-const ProjetWeb = lazy(() => import("./pages/Projet1"));
-const ProjetAppBureau = lazy(() => import("./pages/Projet2"));
+const ProjetWeb = lazy(() => import("./pages/ProjetWeb"));
+const ProjetAppBureau = lazy(() => import("./pages/ProjetBureau"));
 const Contact = lazy(() => import("./pages/Contact"));
 
 export default function App() {
@@ -26,20 +26,20 @@ export default function App() {
                 <Accueil />
               </div>
             } />
-            <Route path="Projet1" element={
+            <Route path="ProjetWeb" element={
               <div>
                 <Helmet>
                   <meta name="description" content="Un projet de site web web d'un restaurant code en HTML/CSS, JS et base de donnee MySQL." />
-                  <title>Projet 1 - Resto fastfood</title>
+                  <title>Projet Web - Resto fastfood</title>
                 </Helmet>
                 <ProjetWeb />
               </div>
             } />
-            <Route path="Projet2" element={
+            <Route path="ProjetBureau" element={
               <div>
                 <Helmet>
                   <meta name="description" content="Un projet d'application bureau code en C# avec une base de donnée SQL Server." />
-                  <title>Perojet 2 - Gestions stagiaires</title>
+                  <title>Projet Bureau - Gestions stagiaires</title>
                 </Helmet>
                 <ProjetAppBureau />
               </div>

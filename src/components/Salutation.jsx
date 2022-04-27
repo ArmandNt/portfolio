@@ -1,6 +1,7 @@
 import styles from "./Salutation.module.css";
 import Skill from "./Skill";
 import Intro from "../components/Intro";
+import DropdownButton from "../components/DropdownButton";
 
 export default function Salutation(props) {
   return (
@@ -23,6 +24,7 @@ export default function Salutation(props) {
         </Intro>
       </div>
       <Skill />
+      <DropdownButton />
     </div>
   );
 }
